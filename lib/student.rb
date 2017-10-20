@@ -34,8 +34,8 @@ class Student
   end
 
   def self.create(:name, :grade)
-    instance = Students.new(name, grade)
+    instance = Student.new(name, grade)
     instance.save
-    instance 
+    instance
   end 
 end
