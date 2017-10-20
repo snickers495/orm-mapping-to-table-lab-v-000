@@ -37,4 +37,5 @@ class Student
     instance = Students.new(name, grade)
     instance.save
     instance 
+  end 
 end
